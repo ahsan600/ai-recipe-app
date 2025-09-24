@@ -37,8 +37,8 @@ export default function SignUp() {
         keyboardVerticalOffset={Platform.OS === "ios" ? 0 : 20}
       >
         <View className="flex-1 relative">
-          <View
-            className="absolute z-50 rounded-full bg-white/70"
+          <TouchableOpacity
+            className="absolute z-50 rounded-full"
             style={{
               backgroundColor: theme.colors.background(0.7),
               padding: hp(1),
@@ -52,8 +52,8 @@ export default function SignUp() {
               size={hp(4)}
               onPress={() => navigation.goBack()}
             />
-          </View>
-          <ScrollView showsVerticalScrollIndicator={false}>
+          </TouchableOpacity>
+          <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
             <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
               <View className="flex-1">
                 {/* Background section */}
@@ -70,17 +70,13 @@ export default function SignUp() {
 
                 {/* White Card Section */}
                 <View
-                  className="flex-1 bg-white -mt-28 z-50"
+                  className="flex-1 bg-white  z-50"
                   style={{
                     borderTopEndRadius: wp(14),
                     borderTopStartRadius: wp(14),
-                    paddingBottom: hp(4),
-                    // shadow only on top
-                    shadowColor: "#000",
-                    shadowOpacity: 0.1,
-                    shadowRadius: wp(6),
-                    shadowOffset: { width: 0, height: hp(-10) },
-                    elevation: 5,
+                    marginTop: hp(-8),
+                    borderTopWidth: wp(0.3),
+                    borderColor: theme.colors.background(1),
                   }}
                 >
                   {/* Title */}
@@ -117,101 +113,117 @@ export default function SignUp() {
                       marginTop: hp(3),
                     }}
                   >
-                    <View style={{ gap: hp(2) }}>
-                      <ThemedInput
-                        leftIcon="person"
-                        placeholder="Full Name"
-                        inputStyle={{
-                          color: "black",
-                          fontFamily: "roboto-regular",
-                          fontSize: hp(2.3),
-                        }}
-                      />
-                      <ThemedInput
-                        leftIcon="mail"
-                        placeholder="Email"
-                        inputStyle={{
-                          color: "black",
-                          fontFamily: "roboto-regular",
-                          fontSize: hp(2.3),
-                        }}
-                      />
-                      <ThemedInput
-                        leftIcon="lock-closed"
-                        placeholder="Password"
-                        secureTextEntry={!showPassword}
-                        rightIcon={showPassword ? "eye" : "eye-off"}
-                        onRightIconPress={() => setShowPassword(!showPassword)}
-                        inputStyle={{
-                          color: "black",
-                          fontFamily: "roboto-regular",
-                          fontSize: hp(2.3),
-                        }}
-                      />
-                      <ThemedInput
-                        leftIcon="lock-closed"
-                        placeholder="Confirm Password"
-                        secureTextEntry={!showConfirmPassword}
-                        rightIcon={showConfirmPassword ? "eye" : "eye-off"}
-                        onRightIconPress={() =>
-                          setShowConfirmPassword(!showConfirmPassword)
-                        }
-                        inputStyle={{
-                          color: "black",
-                          fontFamily: "roboto-regular",
-                          fontSize: hp(2.3),
-                        }}
-                      />
-
-                      {/* Sign Up Button */}
-                      <TouchableOpacity onPress={() => {}}>
-                        <View
-                          className="items-center justify-center"
-                          style={{
-                            backgroundColor: theme.colors.background(1),
-                            borderRadius: theme.borderRadius.lg,
-                            height: hp(6),
-                            marginTop: hp(2),
-                          }}
-                        >
-                          <Text
-                            style={{
-                              color: "white",
-                              fontFamily: "roboto-bold",
-                              fontSize: hp(2.2),
-                              letterSpacing: wp(0.2),
-                            }}
-                          >
-                            Sign Up
-                          </Text>
-                        </View>
-                      </TouchableOpacity>
-
-                      {/* Login Link */}
-                      <View
-                        className="flex-row justify-center"
-                        style={{ marginTop: hp(1) }}
-                      >
-                        <Text
-                          style={{
+                    <View
+                      className="flex-1"
+                      style={{
+                        minHeight: hp(44),
+                        gap: hp(2),
+                      }}
+                    >
+                      <View style={{ gap: hp(2) }}>
+                        <ThemedInput
+                          leftIcon="person"
+                          placeholder="Full Name"
+                          inputStyle={{
+                            color: "black",
                             fontFamily: "roboto-regular",
-                            fontSize: hp(1.8),
-                            color: "gray",
+                            fontSize: hp(2.1),
                           }}
-                        >
-                          Already have an account?{" "}
-                        </Text>
+                        />
+                        <ThemedInput
+                          leftIcon="mail"
+                          placeholder="Email"
+                          inputStyle={{
+                            color: "black",
+                            fontFamily: "roboto-regular",
+                            fontSize: hp(2.1),
+                          }}
+                        />
+                        <ThemedInput
+                          leftIcon="lock-closed"
+                          placeholder="Password"
+                          secureTextEntry={!showPassword}
+                          rightIcon={showPassword ? "eye" : "eye-off"}
+                          onRightIconPress={() =>
+                            setShowPassword(!showPassword)
+                          }
+                          inputStyle={{
+                            color: "black",
+                            fontFamily: "roboto-regular",
+                            fontSize: hp(2.1),
+                          }}
+                        />
+                        <ThemedInput
+                          leftIcon="lock-closed"
+                          placeholder="Confirm Password"
+                          secureTextEntry={!showConfirmPassword}
+                          rightIcon={showConfirmPassword ? "eye" : "eye-off"}
+                          onRightIconPress={() =>
+                            setShowConfirmPassword(!showConfirmPassword)
+                          }
+                          inputStyle={{
+                            color: "black",
+                            fontFamily: "roboto-regular",
+                            fontSize: hp(2.1),
+                          }}
+                        />
+                      </View>
+                      <View
+                        className="flex-1 align-end justify-end"
+                        style={{
+                          gap: hp(2),
+                        }}
+                      >
+                        {/* Sign Up Button */}
                         <TouchableOpacity onPress={() => {}}>
-                          <Text
+                          <View
+                            className="items-center justify-center"
                             style={{
-                              fontFamily: "roboto-bold",
-                              fontSize: hp(1.8),
-                              color: theme.colors.background(1),
+                              backgroundColor: theme.colors.background(1),
+                              borderRadius: theme.borderRadius.lg,
+                              height: hp(6),
+                              marginTop: hp(2),
                             }}
                           >
-                            Login
-                          </Text>
+                            <Text
+                              style={{
+                                color: theme.colors.text,
+                                fontFamily: "roboto-bold",
+                                fontSize: hp(2.5),
+                              }}
+                            >
+                              Sign Up
+                            </Text>
+                          </View>
                         </TouchableOpacity>
+
+                        {/* Login Link */}
+                        <View className="flex-row justify-center items-center">
+                          <Text
+                            style={{
+                              fontFamily: "roboto-regular",
+                              fontSize: hp(1.8),
+                              color: "gray",
+                            }}
+                          >
+                            Already have an account?{" "}
+                          </Text>
+                          <TouchableOpacity
+                            onPress={() => {
+                              navigation.navigate("SignIn" as never);
+                            }}
+                          >
+                            <Text
+                              style={{
+                                fontFamily: "roboto-bold",
+                                fontSize: hp(2),
+                                color: theme.colors.background(1),
+                              }}
+                            >
+                              Login
+                            </Text>
+                          </TouchableOpacity>
+                        </View>
                       </View>
                     </View>
                   </View>

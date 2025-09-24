@@ -117,7 +117,7 @@ export default function Landing() {
                 marginTop: hp(1),
                 borderRadius: wp(4),
               }}
-              onPress={() => navigation.navigate("SignUp" as never)}
+              onPress={() => navigation.navigate("SignIn" as never)}
             >
               <Text
                 style={{
