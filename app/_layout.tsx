@@ -4,8 +4,8 @@ import React from "react";
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    "roboto-bold": require("../assets/fonts/Roboto_Condensed-Bold.ttf"),
-    "roboto-regular": require("../assets/fonts/Roboto_Condensed-Regular.ttf"),
+    // "roboto-bold": require("../assets/fonts/Roboto_Condensed-Bold.ttf"),
+    // "roboto-regular": require("../assets/fonts/Roboto_Condensed-Regular.ttf"),
   });
   return (
     <Stack screenOptions={{ headerShown: false }}>
