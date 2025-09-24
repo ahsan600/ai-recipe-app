@@ -12,6 +12,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "expo-router";
 import React, { useState } from "react";
 import {
+  Alert,
   Image,
   Keyboard,
   KeyboardAvoidingView,
@@ -28,10 +29,13 @@ import {
 } from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function SignUp() {
-  const [showPassword, setShowPassword] = useState(false);
-  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+export default function ForgotPassword() {
   const navigation = useNavigation();
+
+  const handleBackToSignIn = () => {
+    navigation.navigate("SignIn" as never);
+  };
+
   return (
     <SafeAreaView
       className="flex-1"
@@ -45,7 +49,7 @@ export default function SignUp() {
         keyboardVerticalOffset={Platform.OS === "ios" ? 0 : 20}
       >
         <View className="flex-1 relative">
-          {/* <TouchableOpacity
+          <TouchableOpacity
             className="absolute z-50 rounded-full"
             style={{
               backgroundColor: theme.colors.background(0.7),
@@ -53,14 +57,10 @@ export default function SignUp() {
               top: hp(2),
               left: wp(3),
             }}
+            onPress={handleBackToSignIn}
           >
-            <Ionicons
-              name="arrow-back-sharp"
-              color="white"
-              size={hp(4)}
-              onPress={() => navigation.goBack()}
-            />
-          </TouchableOpacity> */}
+            <Ionicons name="arrow-back-sharp" color="white" size={hp(4)} />
+          </TouchableOpacity>
           <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
             <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
               <View className="flex-1">
@@ -78,10 +78,11 @@ export default function SignUp() {
 
                 {/* White Card Section */}
                 <View
-                  className="flex-1 bg-white  z-50"
+                  className="flex-1 bg-white z-50"
                   style={{
                     borderTopEndRadius: wp(14),
                     borderTopStartRadius: wp(14),
+                    paddingBottom: hp(4),
                     marginTop: hp(-8),
                     borderTopWidth: wp(0.3),
                     borderColor: theme.colors.background(1),
@@ -99,7 +100,7 @@ export default function SignUp() {
                         color: theme.colors.background(1),
                       }}
                     >
-                      Sign Up
+                      Forgot Password
                     </Text>
                     <Text
                       style={{
@@ -107,10 +108,14 @@ export default function SignUp() {
                         fontSize: hp(smFontSize),
                         textAlign: "center",
                         marginTop: hp(0.5),
+                        paddingHorizontal: wp(8),
                         color: "gray",
+                        lineHeight: hp(2.2),
                       }}
                     >
-                      Create your account to get started
+                      {
+                        "  Enter your email address and we'll send you a link to reset your password"
+                      }
                     </Text>
                   </View>
 
@@ -118,57 +123,34 @@ export default function SignUp() {
                   <View
                     style={{
                       paddingHorizontal: wp(5),
-                      marginTop: hp(3),
+                      marginTop: hp(4),
                     }}
                   >
                     <View
                       className="flex-1"
                       style={{
-                        minHeight: hp(44),
-                        gap: hp(2),
+                        minHeight: hp(35),
+                        gap: hp(3),
                       }}
                     >
-                      <View style={{ gap: hp(2) }}>
-                        <ThemedInput
-                          leftIcon="person"
-                          placeholder="Full Name"
-                          inputStyle={{
-                            color: "black",
+                      {/* Email Input */}
+                      <View style={{ gap: hp(1) }}>
+                        <Text
+                          style={{
                             fontFamily: regularFont,
-                            fontSize: hp(placeHolderFontSize),
+                            fontSize: hp(smFontSize),
+                            color: theme.colors.background(1),
+                            marginLeft: wp(1),
                           }}
-                        />
+                        >
+                          Email Address
+                        </Text>
                         <ThemedInput
                           leftIcon="mail"
-                          placeholder="Email"
-                          inputStyle={{
-                            color: "black",
-                            fontFamily: regularFont,
-                            fontSize: hp(placeHolderFontSize),
-                          }}
-                        />
-                        <ThemedInput
-                          leftIcon="lock-closed"
-                          placeholder="Password"
-                          secureTextEntry={!showPassword}
-                          rightIcon={showPassword ? "eye" : "eye-off"}
-                          onRightIconPress={() =>
-                            setShowPassword(!showPassword)
-                          }
-                          inputStyle={{
-                            color: "black",
-                            fontFamily: regularFont,
-                            fontSize: hp(placeHolderFontSize),
-                          }}
-                        />
-                        <ThemedInput
-                          leftIcon="lock-closed"
-                          placeholder="Confirm Password"
-                          secureTextEntry={!showConfirmPassword}
-                          rightIcon={showConfirmPassword ? "eye" : "eye-off"}
-                          onRightIconPress={() =>
-                            setShowConfirmPassword(!showConfirmPassword)
-                          }
+                          placeholder="Enter your email address"
+                          keyboardType="email-address"
+                          autoCapitalize="none"
+                          autoComplete="email"
                           inputStyle={{
                             color: "black",
                             fontFamily: regularFont,
@@ -176,21 +158,22 @@ export default function SignUp() {
                           }}
                         />
                       </View>
+
                       <View
                         className="flex-1 align-end justify-end"
                         style={{
-                          gap: hp(2),
+                          gap: hp(2.5),
                         }}
                       >
-                        {/* Sign Up Button */}
-                        <TouchableOpacity onPress={() => {}}>
+                        {/* Send Reset Link Button */}
+                        <TouchableOpacity>
                           <View
-                            className="items-center justify-center"
+                            className="items-center justify-center flex-row"
                             style={{
                               backgroundColor: theme.colors.background(1),
                               borderRadius: theme.borderRadius.lg,
                               height: hp(6),
-                              marginTop: hp(2),
+                              gap: wp(2),
                             }}
                           >
                             <Text
@@ -200,12 +183,14 @@ export default function SignUp() {
                                 fontSize: hp(mdFontSize),
                               }}
                             >
-                              Sign Up
+                              Send Reset Link
                             </Text>
                           </View>
                         </TouchableOpacity>
 
-                        {/* Login Link */}
+                       
+
+                        {/* Back to Sign In Link */}
                         <View className="flex-row justify-center items-center">
                           <Text
                             style={{
@@ -214,13 +199,9 @@ export default function SignUp() {
                               color: "gray",
                             }}
                           >
-                            Already have an account?{" "}
+                            Remember your password?{" "}
                           </Text>
-                          <TouchableOpacity
-                            onPress={() => {
-                              navigation.navigate("SignIn" as never);
-                            }}
-                          >
+                          <TouchableOpacity onPress={handleBackToSignIn}>
                             <Text
                               style={{
                                 fontFamily: boldFont,
@@ -228,9 +209,30 @@ export default function SignUp() {
                                 color: theme.colors.background(1),
                               }}
                             >
-                              Login
+                              Sign In
                             </Text>
                           </TouchableOpacity>
+                        </View>
+
+                        {/* Additional Help */}
+                        <View
+                          className="items-center"
+                          style={{ marginTop: hp(2) }}
+                        >
+                          <Text
+                            style={{
+                              fontFamily: regularFont,
+                              fontSize: hp(smFontSize),
+                              color: "gray",
+                              textAlign: "center",
+                              paddingHorizontal: wp(4),
+                              lineHeight: hp(2),
+                            }}
+                          >
+                            {
+                              " If you don't receive an email within a few minutes, please check your spam folder or contact support"
+                            }
+                          </Text>
                         </View>
                       </View>
                     </View>
