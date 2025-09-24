@@ -8,7 +8,6 @@ import {
   regularFont,
   smFontSize,
 } from "@/theme/fontTheme";
-import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "expo-router";
 import React, { useState } from "react";
 import {

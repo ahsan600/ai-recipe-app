@@ -10,9 +10,8 @@ import {
 } from "@/theme/fontTheme";
 import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "expo-router";
-import React, { useState } from "react";
+import React from "react";
 import {
-  Alert,
   Image,
   Keyboard,
   KeyboardAvoidingView,
@@ -187,8 +186,6 @@ export default function ForgotPassword() {
                             </Text>
                           </View>
                         </TouchableOpacity>
-
-                       
 
                         {/* Back to Sign In Link */}
                         <View className="flex-row justify-center items-center">
