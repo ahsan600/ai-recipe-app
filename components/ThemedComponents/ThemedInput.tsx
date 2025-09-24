@@ -11,6 +11,7 @@ import {
   View,
   ViewStyle,
 } from "react-native";
+import { heightPercentageToDP } from "react-native-responsive-screen";
 
 interface ThemedInputProps extends TextInputProps {
   leftIcon?: keyof typeof Ionicons.glyphMap;
@@ -30,7 +31,7 @@ export const ThemedInput: React.FC<ThemedInputProps> = ({
   onRightIconPress,
   containerStyle,
   inputStyle,
-  iconSize = 20,
+  iconSize = 2.3,
   iconColor = theme.colors.placeholder,
   isPassword = false,
   secureTextEntry,
@@ -74,7 +75,7 @@ export const ThemedInput: React.FC<ThemedInputProps> = ({
         <View style={styles.leftIconContainer}>
           <Ionicons
             name={leftIcon}
-            size={iconSize}
+            size={heightPercentageToDP(iconSize)}
             color={isFocused ? theme.colors.primary : iconColor}
           />
         </View>
@@ -111,7 +112,7 @@ export const ThemedInput: React.FC<ThemedInputProps> = ({
         >
           <Ionicons
             name={actualRightIcon as keyof typeof Ionicons.glyphMap}
-            size={iconSize}
+            size={heightPercentageToDP(iconSize)}
             color={isFocused ? theme.colors.primary : iconColor}
           />
         </TouchableOpacity>
@@ -128,11 +129,11 @@ const styles = StyleSheet.create({
     borderColor: theme.colors.inputBorder,
     borderWidth: 1,
     borderRadius: theme.borderRadius.md,
-    minHeight: 48, // Ensure consistent height
+    minHeight: heightPercentageToDP(2), // Ensure consistent height
   },
   containerFocused: {
     borderColor: theme.colors.primary,
-    borderWidth: 2,
+    borderWidth: 1,
   },
   input: {
     flex: 1,
