@@ -1,9 +1,9 @@
 import { theme } from "@/theme/colorsThemes";
 import { Marquee } from "@animatereactnative/marquee";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { useRouter } from "expo-router";
+import { useNavigation } from "expo-router";
 import React from "react";
-import { Image, Text, TouchableHighlight, View } from "react-native";
+import { Image, Text, TouchableOpacity, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import {
   heightPercentageToDP as hp,
@@ -11,7 +11,7 @@ import {
 } from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
 export default function Landing() {
-  const router = useRouter();
+  const navigation = useNavigation();
   const images = [
     require("../assets/images/2.jpg"),
     require("../assets/images/1.jpg"),
@@ -42,8 +42,8 @@ export default function Landing() {
                       key={index}
                       source={img}
                       style={{
-                        width: wp(38),
-                        height: hp(19),
+                        width: hp(20),
+                        height: hp(18),
                         resizeMode: "cover",
                         borderRadius: wp(3),
                       }}
@@ -66,7 +66,7 @@ export default function Landing() {
                 fontFamily: "roboto-bold",
                 fontSize: wp(6),
                 textAlign: "center",
-                letterSpacing: 0.5,
+                letterSpacing: wp(0.8),
               }}
             >
               <Text style={{ color: theme.colors.background(1) }}>ChefAI</Text>{" "}
@@ -88,14 +88,14 @@ export default function Landing() {
                 fontFamily: "roboto-regular",
                 fontSize: wp(4),
                 textAlign: "center",
-                letterSpacing: 0.8,
+                letterSpacing: wp(0.8),
                 lineHeight: wp(6),
               }}
             >
               Generate any recipe within seconds with the power of{" "}
               <FontAwesome6
                 name="robot"
-                size={20}
+                size={wp(6)}
                 color={theme.colors.background(1)}
               />{" "}
               <Text
@@ -109,26 +109,26 @@ export default function Landing() {
               </Text>
             </Text>
 
-            <TouchableHighlight
+            <TouchableOpacity
               className=" flex items-center "
               style={{
                 backgroundColor: theme.colors.background(1),
-                padding: wp(3),
+                padding: hp(2),
                 marginTop: hp(1),
                 borderRadius: wp(4),
               }}
-              onPress={() => router.replace("/SignUp")}
+              onPress={() => navigation.navigate("SignUp" as never)}
             >
               <Text
                 style={{
                   color: theme.colors.text,
                   fontFamily: "roboto-bold",
-                  fontSize: wp(4.5),
+                  fontSize: hp(2.5),
                 }}
               >
                 Sign In
               </Text>
-            </TouchableHighlight>
+            </TouchableOpacity>
           </View>
         </View>
       </SafeAreaView>
