@@ -1,4 +1,10 @@
 import { theme } from "@/theme/colorsThemes";
+import {
+  boldFont,
+  lgFontSize,
+  mdFontSize,
+  xlFontSize,
+} from "@/theme/fontTheme";
 import { Marquee } from "@animatereactnative/marquee";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { useNavigation } from "expo-router";
@@ -63,20 +69,21 @@ export default function Landing() {
             {/* Title */}
             <Text
               style={{
-                fontFamily: "roboto-bold",
-                fontSize: wp(6),
+                fontFamily: boldFont,
+                fontSize: wp(xlFontSize),
                 textAlign: "center",
-                letterSpacing: wp(0.8),
+                letterSpacing: wp(0.4),
+                lineHeight: wp(xlFontSize * 1.4), // better spacing
               }}
             >
-              <Text style={{ color: theme.colors.background(1) }}>ChefAI</Text>{" "}
-              – Your Personal{" "}
+              <Text style={{ color: theme.colors.background(1) }}>ChefAI</Text>
+              {" – Your Personal "}
               <Text style={{ color: theme.colors.background(1) }}>AI Chef</Text>
-              , Anytime You Want{" "}
+              {"\nAnytime You Want.\n"}
               <Text style={{ color: theme.colors.background(1) }}>
                 Effortless
               </Text>
-              ,{" "}
+              {", "}
               <Text style={{ color: theme.colors.background(1) }}>
                 Delicious Recipes
               </Text>
@@ -85,11 +92,10 @@ export default function Landing() {
             {/* Subtitle */}
             <Text
               style={{
-                fontFamily: "roboto-regular",
-                fontSize: wp(4),
+                fontFamily: boldFont,
+                fontSize: wp(lgFontSize),
                 textAlign: "center",
-                letterSpacing: wp(0.8),
-                lineHeight: wp(6),
+                letterSpacing: wp(0.4),
               }}
             >
               Generate any recipe within seconds with the power of{" "}
@@ -100,8 +106,8 @@ export default function Landing() {
               />{" "}
               <Text
                 style={{
-                  fontFamily: "roboto-bold",
-                  fontSize: wp(5),
+                  fontFamily: boldFont,
+                  fontSize: wp(xlFontSize),
                   color: theme.colors.background(0.8),
                 }}
               >
@@ -109,25 +115,29 @@ export default function Landing() {
               </Text>
             </Text>
 
+            {/* Sign Up Button */}
             <TouchableOpacity
-              className=" flex items-center "
-              style={{
-                backgroundColor: theme.colors.background(1),
-                padding: hp(2),
-                marginTop: hp(1),
-                borderRadius: wp(4),
-              }}
               onPress={() => navigation.navigate("SignIn" as never)}
             >
-              <Text
+              <View
+                className="items-center justify-center"
                 style={{
-                  color: theme.colors.text,
-                  fontFamily: "roboto-bold",
-                  fontSize: hp(2.5),
+                  backgroundColor: theme.colors.background(1),
+                  borderRadius: theme.borderRadius.lg,
+                  height: hp(6),
+                  marginTop: hp(2),
                 }}
               >
-                Sign In
-              </Text>
+                <Text
+                  style={{
+                    color: theme.colors.text,
+                    fontFamily: boldFont,
+                    fontSize: hp(mdFontSize),
+                  }}
+                >
+                  Get Started
+                </Text>
+              </View>
             </TouchableOpacity>
           </View>
         </View>

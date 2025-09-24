@@ -1,5 +1,13 @@
 import { ThemedInput } from "@/components/ThemedComponents/ThemedInput";
 import { theme } from "@/theme/colorsThemes";
+import {
+  boldFont,
+  headerFontSize,
+  mdFontSize,
+  placeHolderFontSize,
+  regularFont,
+  smFontSize,
+} from "@/theme/fontTheme";
 import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "expo-router";
 import React, { useState } from "react";
@@ -50,7 +58,7 @@ export default function SignIn() {
               name="arrow-back-sharp"
               color="white"
               size={hp(4)}
-              onPress={() => navigation.goBack()}
+              onPress={() => navigation.navigate("Landing" as never)}
             />
           </TouchableOpacity>
           <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
@@ -80,30 +88,29 @@ export default function SignIn() {
                     borderColor: theme.colors.background(1),
                   }}
                 >
-                  {/* Title */}
                   <View>
                     <Text
                       style={{
-                        fontFamily: "roboto-bold",
-                        fontSize: hp(4),
+                        fontFamily: boldFont,
+                        fontSize: hp(headerFontSize),
                         marginTop: hp(2),
                         textAlign: "center",
                         letterSpacing: wp(0.2),
                         color: theme.colors.background(1),
                       }}
                     >
-                      Sign In
+                      Welcome Back
                     </Text>
                     <Text
                       style={{
-                        fontFamily: "roboto-regular",
-                        fontSize: hp(1.8),
+                        fontFamily: regularFont,
+                        fontSize: hp(smFontSize),
                         textAlign: "center",
                         marginTop: hp(0.5),
                         color: "gray",
                       }}
                     >
-                      Sign In to your account
+                      Sign in to continue to your account
                     </Text>
                   </View>
 
@@ -127,8 +134,8 @@ export default function SignIn() {
                           placeholder="Email"
                           inputStyle={{
                             color: "black",
-                            fontFamily: "roboto-regular",
-                            fontSize: hp(2.1),
+                            fontFamily: regularFont,
+                            fontSize: hp(placeHolderFontSize),
                           }}
                         />
                         <ThemedInput
@@ -141,10 +148,26 @@ export default function SignIn() {
                           }
                           inputStyle={{
                             color: "black",
-                            fontFamily: "roboto-regular",
-                            fontSize: hp(2.1),
+                            fontFamily: regularFont,
+                            fontSize: hp(placeHolderFontSize),
                           }}
                         />
+                        <TouchableOpacity
+                          onPress={() =>
+                            navigation.navigate("ForgotPassword" as never)
+                          }
+                        >
+                          <Text
+                            className="text-right"
+                            style={{
+                              fontFamily: regularFont,
+                              fontSize: hp(smFontSize),
+                              color: theme.colors.background(1),
+                            }}
+                          >
+                            Forgot Password?
+                          </Text>
+                        </TouchableOpacity>
                       </View>
                       <View
                         className="flex-1 align-end justify-end"
@@ -165,8 +188,8 @@ export default function SignIn() {
                             <Text
                               style={{
                                 color: theme.colors.text,
-                                fontFamily: "roboto-bold",
-                                fontSize: hp(2.5),
+                                fontFamily: boldFont,
+                                fontSize: hp(mdFontSize),
                               }}
                             >
                               Sign In
@@ -178,12 +201,12 @@ export default function SignIn() {
                         <View className="flex-row justify-center items-center">
                           <Text
                             style={{
-                              fontFamily: "roboto-regular",
-                              fontSize: hp(1.8),
+                              fontFamily: regularFont,
+                              fontSize: hp(smFontSize),
                               color: "gray",
                             }}
                           >
-                            Don't have an account?{" "}
+                            {"Don't have an account?"}{" "}
                           </Text>
                           <TouchableOpacity
                             onPress={() => {
@@ -192,12 +215,13 @@ export default function SignIn() {
                           >
                             <Text
                               style={{
-                                fontFamily: "roboto-bold",
-                                fontSize: hp(2),
+                                fontFamily: boldFont,
+                                fontSize: hp(smFontSize),
                                 color: theme.colors.background(1),
+                                textDecorationLine: "underline",
                               }}
                             >
-                              Register
+                              Create Account
                             </Text>
                           </TouchableOpacity>
                         </View>

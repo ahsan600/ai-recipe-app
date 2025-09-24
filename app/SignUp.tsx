@@ -1,5 +1,13 @@
 import { ThemedInput } from "@/components/ThemedComponents/ThemedInput";
 import { theme } from "@/theme/colorsThemes";
+import {
+  boldFont,
+  headerFontSize,
+  mdFontSize,
+  placeHolderFontSize,
+  regularFont,
+  smFontSize,
+} from "@/theme/fontTheme";
 import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "expo-router";
 import React, { useState } from "react";
@@ -37,7 +45,7 @@ export default function SignUp() {
         keyboardVerticalOffset={Platform.OS === "ios" ? 0 : 20}
       >
         <View className="flex-1 relative">
-          <TouchableOpacity
+          {/* <TouchableOpacity
             className="absolute z-50 rounded-full"
             style={{
               backgroundColor: theme.colors.background(0.7),
@@ -52,7 +60,7 @@ export default function SignUp() {
               size={hp(4)}
               onPress={() => navigation.goBack()}
             />
-          </TouchableOpacity>
+          </TouchableOpacity> */}
           <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
             <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
               <View className="flex-1">
@@ -83,8 +91,8 @@ export default function SignUp() {
                   <View>
                     <Text
                       style={{
-                        fontFamily: "roboto-bold",
-                        fontSize: hp(4),
+                        fontFamily: boldFont,
+                        fontSize: hp(headerFontSize),
                         marginTop: hp(2),
                         textAlign: "center",
                         letterSpacing: wp(0.2),
@@ -95,8 +103,8 @@ export default function SignUp() {
                     </Text>
                     <Text
                       style={{
-                        fontFamily: "roboto-regular",
-                        fontSize: hp(1.8),
+                        fontFamily: regularFont,
+                        fontSize: hp(smFontSize),
                         textAlign: "center",
                         marginTop: hp(0.5),
                         color: "gray",
@@ -126,8 +134,8 @@ export default function SignUp() {
                           placeholder="Full Name"
                           inputStyle={{
                             color: "black",
-                            fontFamily: "roboto-regular",
-                            fontSize: hp(2.1),
+                            fontFamily: regularFont,
+                            fontSize: hp(placeHolderFontSize),
                           }}
                         />
                         <ThemedInput
@@ -135,8 +143,8 @@ export default function SignUp() {
                           placeholder="Email"
                           inputStyle={{
                             color: "black",
-                            fontFamily: "roboto-regular",
-                            fontSize: hp(2.1),
+                            fontFamily: regularFont,
+                            fontSize: hp(placeHolderFontSize),
                           }}
                         />
                         <ThemedInput
@@ -149,8 +157,8 @@ export default function SignUp() {
                           }
                           inputStyle={{
                             color: "black",
-                            fontFamily: "roboto-regular",
-                            fontSize: hp(2.1),
+                            fontFamily: regularFont,
+                            fontSize: hp(placeHolderFontSize),
                           }}
                         />
                         <ThemedInput
@@ -163,8 +171,8 @@ export default function SignUp() {
                           }
                           inputStyle={{
                             color: "black",
-                            fontFamily: "roboto-regular",
-                            fontSize: hp(2.1),
+                            fontFamily: regularFont,
+                            fontSize: hp(placeHolderFontSize),
                           }}
                         />
                       </View>
@@ -188,8 +196,8 @@ export default function SignUp() {
                             <Text
                               style={{
                                 color: theme.colors.text,
-                                fontFamily: "roboto-bold",
-                                fontSize: hp(2.5),
+                                fontFamily: boldFont,
+                                fontSize: hp(mdFontSize),
                               }}
                             >
                               Sign Up
@@ -201,8 +209,8 @@ export default function SignUp() {
                         <View className="flex-row justify-center items-center">
                           <Text
                             style={{
-                              fontFamily: "roboto-regular",
-                              fontSize: hp(1.8),
+                              fontFamily: regularFont,
+                              fontSize: hp(smFontSize),
                               color: "gray",
                             }}
                           >
@@ -215,8 +223,8 @@ export default function SignUp() {
                           >
                             <Text
                               style={{
-                                fontFamily: "roboto-bold",
-                                fontSize: hp(2),
+                                fontFamily: boldFont,
+                                fontSize: hp(smFontSize),
                                 color: theme.colors.background(1),
                               }}
                             >
