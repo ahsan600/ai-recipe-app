@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "975957333516",
+    "project_id": "ai-recipe-app-9e7e4",
+    "storage_bucket": "ai-recipe-app-9e7e4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975957333516:android:cfddc344d013d5a0c48029",
+        "android_client_info": {
+          "package_name": "com.atcode.airecipeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975957333516-7npgoff8s65oa5o3oust5qfas8nbmk5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atcode.airecipeapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "975957333516-o9ksoulafk9e1nglp12m220ufcjh2g6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd-OTZ3yShHcQpOzgNJUvf9jdT3rIykEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975957333516-o9ksoulafk9e1nglp12m220ufcjh2g6l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "975957333516-3tjsadv2ivomrecj3i8cqu2meoncvpeb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.atcode.airecipe-app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
