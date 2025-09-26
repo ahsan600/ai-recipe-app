@@ -7,6 +7,12 @@ import {
   smFontSize,
 } from "@/theme/fontTheme";
 import { Ionicons } from "@expo/vector-icons";
+import {
+  getAuth,
+  reload,
+  sendEmailVerification,
+} from "@react-native-firebase/auth";
+import { useRoute } from "@react-navigation/native";
 import { useNavigation } from "expo-router";
 import React from "react";
 import {
@@ -25,18 +31,43 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 
 interface Props {
-  route?: {
-    params?: {
-      email?: string;
-    };
+  params: {
+    email: string;
   };
 }
 
-export default function VerificationEmailScreen({ route }: Props) {
+//TODO: Implement Toastify
+export default function VerificationEmailScreen() {
+  const route = useRoute() as Props;
   const navigation = useNavigation();
-
+  const params = route.params;
   const handleBackToSignIn = () => {
     navigation.navigate("SignIn" as never);
+  };
+  const resendVerificationEmail = async () => {
+    const user = getAuth().currentUser;
+    if (user) {
+      await sendEmailVerification(user);
+    }
+  };
+
+  const checkEmailVerification = async () => {
+    const auth = getAuth();
+    const user = auth.currentUser;
+
+    if (user) {
+      await reload(user);
+      if (user.emailVerified) {
+        console.log("✅ Email is verified!");
+        navigation.navigate("HomeScreen" as never);
+      } else {
+        console.log("❌ Email not verified yet.");
+        return false;
+      }
+    }
+
+    console.log("⚠️ No user found.");
+    return false;
   };
   return (
     <SafeAreaView
@@ -132,7 +163,7 @@ export default function VerificationEmailScreen({ route }: Props) {
                       color: theme.colors.background(1),
                     }}
                   >
-                    imahsan600@gmail.com
+                    {params.email}
                   </Text>
                   <Text
                     style={{
@@ -194,7 +225,7 @@ export default function VerificationEmailScreen({ route }: Props) {
                     </TouchableOpacity>
 
                     {/* I've Verified Button */}
-                    <TouchableOpacity onPress={() => {}}>
+                    <TouchableOpacity onPress={checkEmailVerification}>
                       <View
                         className="items-center justify-center flex-row"
                         style={{
@@ -236,7 +267,7 @@ export default function VerificationEmailScreen({ route }: Props) {
                         {" Didn't receive the email?"}
                       </Text>
 
-                      <TouchableOpacity onPress={() => {}}>
+                      <TouchableOpacity onPress={resendVerificationEmail}>
                         <View
                           className="items-center justify-center flex-row"
                           style={{

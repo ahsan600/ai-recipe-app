@@ -218,7 +218,6 @@ export default function SignIn() {
                                 fontFamily: boldFont,
                                 fontSize: hp(smFontSize),
                                 color: theme.colors.background(1),
-                                textDecorationLine: "underline",
                               }}
                             >
                               Create Account
