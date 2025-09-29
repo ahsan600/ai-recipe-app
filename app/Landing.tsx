@@ -17,7 +17,7 @@ import {
 } from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
 export default function Landing() {
-  const navigation = useNavigation();
+  const navigation = useNavigation() as any;
   const images = [
     require("../assets/images/2.jpg"),
     require("../assets/images/1.jpg"),
@@ -117,7 +117,11 @@ export default function Landing() {
 
             {/* Sign Up Button */}
             <TouchableOpacity
-              onPress={() => navigation.navigate("SignIn" as never)}
+              onPress={() =>
+                navigation.navigate("VerificationEmailScreen", {
+                  email: "testing@gmail.com",
+                })
+              }
             >
               <View
                 className="items-center justify-center"

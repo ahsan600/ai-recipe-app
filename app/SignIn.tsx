@@ -1,3 +1,4 @@
+import loginUser from "@/api/login-user/login-user";
 import { ThemedInput } from "@/components/ThemedComponents/ThemedInput";
 import { theme } from "@/theme/colorsThemes";
 import {
@@ -8,9 +9,12 @@ import {
   regularFont,
   smFontSize,
 } from "@/theme/fontTheme";
+import { handleAuthError } from "@/utils/FirebaseError";
 import { Ionicons } from "@expo/vector-icons";
+import { sendEmailVerification } from "@react-native-firebase/auth";
 import { useNavigation } from "expo-router";
 import React, { useState } from "react";
+import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import {
   Image,
   Keyboard,
@@ -27,11 +31,64 @@ import {
   widthPercentageToDP as wp,
 } from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
+import Toast from "react-native-toast-message";
 
+interface SignInFormData {
+  email: string;
+  password: string;
+}
 export default function SignIn() {
   const [showPassword, setShowPassword] = useState(false);
-  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const navigation = useNavigation();
+  const [loading, setLoading] = useState(false);
+
+  const navigation = useNavigation() as any;
+  const {
+    control,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm({
+    defaultValues: {
+      email: "",
+      password: "",
+    },
+  });
+
+  const onSubmit: SubmitHandler<SignInFormData> = async (data) => {
+    setLoading(true);
+    const { email, password } = data;
+    try {
+      const result = await loginUser({ email, password });
+      const user = result.data;
+
+      if (user && !user.emailVerified) {
+        Toast.show({
+          type: "error",
+          text1: "Email not verified",
+          text2: "Please verify your email",
+        });
+        await sendEmailVerification(user);
+        navigation.navigate("VerificationEmailScreen");
+        return;
+      }
+
+      Toast.show({
+        type: "success",
+        text1: "Login successfully !",
+      });
+      navigation.navigate("(tabs)");
+    } catch (error) {
+      console.log(error);
+      const handelError = handleAuthError(error);
+      Toast.show({
+        type: "error",
+        text1: handelError.message,
+        text2: "Please try again",
+      });
+    } finally {
+      setLoading(false);
+    }
+  };
   return (
     <SafeAreaView
       className="flex-1"
@@ -129,29 +186,82 @@ export default function SignIn() {
                       }}
                     >
                       <View style={{ gap: hp(2) }}>
-                        <ThemedInput
-                          leftIcon="mail"
-                          placeholder="Email"
-                          inputStyle={{
-                            color: "black",
-                            fontFamily: regularFont,
-                            fontSize: hp(placeHolderFontSize),
-                          }}
-                        />
-                        <ThemedInput
-                          leftIcon="lock-closed"
-                          placeholder="Password"
-                          secureTextEntry={!showPassword}
-                          rightIcon={showPassword ? "eye" : "eye-off"}
-                          onRightIconPress={() =>
-                            setShowPassword(!showPassword)
-                          }
-                          inputStyle={{
-                            color: "black",
-                            fontFamily: regularFont,
-                            fontSize: hp(placeHolderFontSize),
-                          }}
-                        />
+                        {/* Email */}
+                        <View>
+                          <Controller
+                            control={control}
+                            rules={{
+                              required: "Email Address is required.",
+                              validate: (value) =>
+                                /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) ||
+                                "Invalid email format",
+                            }}
+                            render={({
+                              field: { onChange, onBlur, value },
+                            }) => (
+                              <ThemedInput
+                                leftIcon="mail"
+                                placeholder="Email Address"
+                                onBlur={onBlur}
+                                onChangeText={onChange}
+                                value={value}
+                                inputStyle={{
+                                  color: "black",
+                                  fontFamily: regularFont,
+                                  fontSize: hp(placeHolderFontSize),
+                                }}
+                              />
+                            )}
+                            name="email"
+                          />
+                          {errors.email && (
+                            <Text style={{ color: "red" }}>
+                              {errors.email.message}
+                            </Text>
+                          )}
+                        </View>
+                        {/* Password */}
+                        <View>
+                          <Controller
+                            control={control}
+                            rules={{
+                              required: true,
+                              minLength: {
+                                value: 8,
+                                message:
+                                  "Password must be at least 8 characters.",
+                              },
+                            }}
+                            render={({
+                              field: { onChange, onBlur, value },
+                            }) => (
+                              <ThemedInput
+                                leftIcon="lock-closed"
+                                placeholder="Password"
+                                secureTextEntry={!showPassword}
+                                rightIcon={showPassword ? "eye" : "eye-off"}
+                                onRightIconPress={() =>
+                                  setShowPassword(!showPassword)
+                                }
+                                onBlur={onBlur}
+                                onChangeText={onChange}
+                                value={value}
+                                inputStyle={{
+                                  color: "black",
+                                  fontFamily: regularFont,
+                                  fontSize: hp(placeHolderFontSize),
+                                }}
+                              />
+                            )}
+                            name="password"
+                          />
+                          {errors.password && (
+                            <Text style={{ color: "red" }}>
+                              {errors.password.message ||
+                                "Password is required."}
+                            </Text>
+                          )}
+                        </View>
                         <TouchableOpacity
                           onPress={() =>
                             navigation.navigate("ForgotPassword" as never)
@@ -176,13 +286,18 @@ export default function SignIn() {
                         }}
                       >
                         {/* Sign Up Button */}
-                        <TouchableOpacity onPress={() => {}}>
+                        <TouchableOpacity
+                          disabled={loading}
+                          onPress={handleSubmit(onSubmit)}
+                          style={{ opacity: loading ? 0.6 : 1 }}
+                        >
                           <View
                             className="items-center justify-center"
                             style={{
                               backgroundColor: theme.colors.background(1),
                               borderRadius: theme.borderRadius.lg,
                               height: hp(6),
+                              marginTop: hp(2),
                             }}
                           >
                             <Text
@@ -192,7 +307,7 @@ export default function SignIn() {
                                 fontSize: hp(mdFontSize),
                               }}
                             >
-                              Sign In
+                              {loading ? "Signing" : "Sign In"}
                             </Text>
                           </View>
                         </TouchableOpacity>

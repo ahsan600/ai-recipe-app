@@ -9,6 +9,7 @@ import {
   regularFont,
   smFontSize,
 } from "@/theme/fontTheme";
+import { handleAuthError } from "@/utils/FirebaseError";
 import { useNavigation } from "expo-router";
 import React, { useState } from "react";
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
@@ -28,6 +29,7 @@ import {
   widthPercentageToDP as wp,
 } from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
+import Toast from "react-native-toast-message";
 interface SignUpFormData {
   fullName: string;
   email: string;
@@ -66,11 +68,22 @@ export default function SignUp() {
       });
       if (user.success) {
         reset();
+        Toast.show({
+          type: "success",
+          text1: "Registration Successful",
+          text2: "Verification email sent",
+        });
         navigation.navigate("VerificationEmailScreen" as never, {
           email: email,
         });
       }
     } catch (error) {
+      const handleError = handleAuthError(error);
+      Toast.show({
+        type: "success",
+        text1: handleError.message,
+        text2: "Please try again",
+      });
     } finally {
       setLoading(false);
     }
@@ -366,7 +379,7 @@ export default function SignUp() {
                                 color: theme.colors.background(1),
                               }}
                             >
-                              Login
+                              Sign In
                             </Text>
                           </TouchableOpacity>
                         </View>
