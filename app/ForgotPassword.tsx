@@ -8,9 +8,12 @@ import {
   regularFont,
   smFontSize,
 } from "@/theme/fontTheme";
+import { handleAuthError } from "@/utils/FirebaseError";
 import { Ionicons } from "@expo/vector-icons";
+import { getAuth, sendPasswordResetEmail } from "@react-native-firebase/auth";
 import { useNavigation } from "expo-router";
-import React from "react";
+import React, { useState } from "react";
+import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import {
   Image,
   Keyboard,
@@ -27,12 +30,53 @@ import {
   widthPercentageToDP as wp,
 } from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
-
+import Toast from "react-native-toast-message";
+interface ForgotPasswordFormData {
+  email: string;
+}
 export default function ForgotPassword() {
+  const [loading, setLoading] = useState(false);
   const navigation = useNavigation();
+  const {
+    control,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm({
+    defaultValues: {
+      email: "",
+      password: "",
+    },
+  });
 
   const handleBackToSignIn = () => {
     navigation.navigate("SignIn" as never);
+  };
+
+  const onSubmit: SubmitHandler<ForgotPasswordFormData> = async (data) => {
+    setLoading(true);
+
+    try {
+      const { email } = data;
+      await sendPasswordResetEmail(getAuth(), email);
+      Toast.show({
+        type: "success",
+        text1: "Password reset email sent",
+        text2: "Redirecting to sign-in...",
+      });
+      setTimeout(() => {
+        navigation.navigate("SignIn" as never);
+      }, 2000);
+    } catch (error) {
+      const handleError = handleAuthError(error);
+      Toast.show({
+        type: "error",
+        text1: handleError.message,
+        text2: "Please try again.",
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -144,18 +188,40 @@ export default function ForgotPassword() {
                         >
                           Email Address
                         </Text>
-                        <ThemedInput
-                          leftIcon="mail"
-                          placeholder="Enter your email address"
-                          keyboardType="email-address"
-                          autoCapitalize="none"
-                          autoComplete="email"
-                          inputStyle={{
-                            color: "black",
-                            fontFamily: regularFont,
-                            fontSize: hp(placeHolderFontSize),
-                          }}
-                        />
+                        {/* Email */}
+                        <View>
+                          <Controller
+                            control={control}
+                            rules={{
+                              required: "Email Address is required.",
+                              validate: (value) =>
+                                /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) ||
+                                "Invalid email format",
+                            }}
+                            render={({
+                              field: { onChange, onBlur, value },
+                            }) => (
+                              <ThemedInput
+                                leftIcon="mail"
+                                placeholder="Email Address"
+                                onBlur={onBlur}
+                                onChangeText={onChange}
+                                value={value}
+                                inputStyle={{
+                                  color: "black",
+                                  fontFamily: regularFont,
+                                  fontSize: hp(placeHolderFontSize),
+                                }}
+                              />
+                            )}
+                            name="email"
+                          />
+                          {errors.email && (
+                            <Text style={{ color: "red" }}>
+                              {errors.email.message}
+                            </Text>
+                          )}
+                        </View>
                       </View>
 
                       <View
@@ -165,7 +231,13 @@ export default function ForgotPassword() {
                         }}
                       >
                         {/* Send Reset Link Button */}
-                        <TouchableOpacity>
+                        <TouchableOpacity
+                          disabled={loading}
+                          onPress={handleSubmit(onSubmit)}
+                          style={{
+                            opacity: loading ? 0.6 : 1,
+                          }}
+                        >
                           <View
                             className="items-center justify-center flex-row"
                             style={{
@@ -182,7 +254,7 @@ export default function ForgotPassword() {
                                 fontSize: hp(mdFontSize),
                               }}
                             >
-                              Send Reset Link
+                              {loading ? "Sending..." : "Send Reset Link"}
                             </Text>
                           </View>
                         </TouchableOpacity>
