@@ -31,7 +31,6 @@ const registerUser = async (
       success: true,
     };
   } catch (error: any) {
-    console.error("Error registering user:", error);
     const handleError = handleAuthError(error);
 
     return {

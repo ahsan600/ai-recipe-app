@@ -61,13 +61,15 @@ export default function SignUp() {
     setLoading(true);
     const { fullName, email, password } = data;
     try {
-      const user = await registerUser({
+      const result = await registerUser({
         email,
         fullName,
         password,
       });
-      if (user.success) {
+
+      if (result.success) {
         reset();
+
         Toast.show({
           type: "success",
           text1: "Registration Successful",
@@ -75,6 +77,11 @@ export default function SignUp() {
         });
         navigation.navigate("VerificationEmailScreen" as never, {
           email: email,
+        });
+      } else {
+        Toast.show({
+          type: "error",
+          text1: result.error?.message,
         });
       }
     } catch (error) {

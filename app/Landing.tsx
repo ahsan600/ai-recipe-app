@@ -1,3 +1,4 @@
+import { useAuth } from "@/hooks/useAuth";
 import { theme } from "@/theme/colorsThemes";
 import {
   boldFont,
@@ -17,6 +18,7 @@ import {
 } from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
 export default function Landing() {
+  const auth = useAuth();
   const navigation = useNavigation() as any;
   const images = [
     require("../assets/images/2.jpg"),
@@ -118,9 +120,7 @@ export default function Landing() {
             {/* Sign Up Button */}
             <TouchableOpacity
               onPress={() =>
-                navigation.navigate("VerificationEmailScreen", {
-                  email: "testing@gmail.com",
-                })
+                navigation.navigate(auth?.user ? "(tabs)" : "SignIn")
               }
             >
               <View
@@ -139,7 +139,7 @@ export default function Landing() {
                     fontSize: hp(mdFontSize),
                   }}
                 >
-                  Get Started
+                  {auth?.user ? "Get Started" : "Sign In"}
                 </Text>
               </View>
             </TouchableOpacity>

@@ -1,3 +1,4 @@
+import AuthProvider from "@/context/Auth/AuthContext";
 import { theme } from "@/theme/colorsThemes";
 import { font } from "@/theme/fontTheme";
 import { useFonts } from "expo-font";
@@ -10,7 +11,7 @@ export default function RootLayout() {
     success: (props: any) => (
       <BaseToast
         {...props}
-        style={{ borderLeftColor: theme.colors.background(1) }}
+        style={{ borderLeftColor: "green" }}
         text1Style={{
           fontSize: 14,
           fontWeight: "bold",
@@ -33,8 +34,9 @@ export default function RootLayout() {
       />
     ),
   };
+
   return (
-    <>
+    <AuthProvider>
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="index" />
         <Stack.Screen name="Landing" />
@@ -44,6 +46,6 @@ export default function RootLayout() {
         <Stack.Screen name="(tabs)" />
       </Stack>
       <Toast config={toastConfig} />
-    </>
+    </AuthProvider>
   );
 }
