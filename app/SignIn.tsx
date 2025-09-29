@@ -60,23 +60,28 @@ export default function SignIn() {
     try {
       const result = await loginUser({ email, password });
       const user = result.data;
-
-      if (user && !user.emailVerified) {
+      if (result.success) {
+        if (user && !user.emailVerified) {
+          Toast.show({
+            type: "error",
+            text1: "Email not verified",
+            text2: "Please verify your email",
+          });
+          await sendEmailVerification(user);
+          navigation.navigate("VerificationEmailScreen");
+          return;
+        }
+        Toast.show({
+          type: "success",
+          text1: "Login successfully !",
+        });
+        navigation.navigate("(tabs)");
+      } else {
         Toast.show({
           type: "error",
-          text1: "Email not verified",
-          text2: "Please verify your email",
+          text1: result.error?.message,
         });
-        await sendEmailVerification(user);
-        navigation.navigate("VerificationEmailScreen");
-        return;
       }
-
-      Toast.show({
-        type: "success",
-        text1: "Login successfully !",
-      });
-      navigation.navigate("(tabs)");
     } catch (error) {
       console.log(error);
       const handelError = handleAuthError(error);
@@ -307,7 +312,7 @@ export default function SignIn() {
                                 fontSize: hp(mdFontSize),
                               }}
                             >
-                              {loading ? "Signing" : "Sign In"}
+                              {loading ? "Signing..." : "Sign In"}
                             </Text>
                           </View>
                         </TouchableOpacity>
