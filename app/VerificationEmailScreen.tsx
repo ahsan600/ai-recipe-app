@@ -6,12 +6,20 @@ import {
   regularFont,
   smFontSize,
 } from "@/theme/fontTheme";
+import { handleAuthError } from "@/utils/FirebaseError";
 import { Ionicons } from "@expo/vector-icons";
+import {
+  getAuth,
+  reload,
+  sendEmailVerification,
+} from "@react-native-firebase/auth";
+import { useRoute } from "@react-navigation/native";
 import { useNavigation } from "expo-router";
-import React from "react";
+import React, { useState } from "react";
 import {
   Image,
   Keyboard,
+  Linking,
   ScrollView,
   Text,
   TouchableOpacity,
@@ -23,21 +31,118 @@ import {
   widthPercentageToDP as wp,
 } from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
+import Toast from "react-native-toast-message";
 
 interface Props {
-  route?: {
-    params?: {
-      email?: string;
-    };
+  params: {
+    email: string;
   };
 }
 
-export default function VerificationEmailScreen({ route }: Props) {
-  const navigation = useNavigation();
-
+//TODO: Implement Toastify
+export default function VerificationEmailScreen() {
+  const route = useRoute() as Props;
+  const navigation = useNavigation() as any;
+  const params = route.params;
+  const [buttonLoading, setButtonLoading] = useState({
+    resendEmail: false,
+    openEmailApp: false,
+    checkVerificationEmail: false,
+  });
   const handleBackToSignIn = () => {
     navigation.navigate("SignIn" as never);
   };
+  const resendVerificationEmail = async () => {
+    setButtonLoading((pv) => ({ ...pv, resendEmail: true }));
+    const auth = getAuth();
+    const user = auth.currentUser;
+    try {
+      if (!user) {
+        Toast.show({
+          type: "error",
+          text1: "Authentication Error",
+          text2: "No user found. Please sign in again.",
+        });
+        return;
+      }
+      await sendEmailVerification(user);
+    } catch (error) {
+      const handleError = handleAuthError(error);
+      Toast.show({
+        type: "error",
+        text1: handleError.message,
+        text2: "Please try again later",
+      });
+    } finally {
+      setButtonLoading((pv) => ({ ...pv, resendEmail: false }));
+    }
+  };
+
+  const checkEmailVerification = async () => {
+    setButtonLoading((pv) => ({ ...pv, checkVerificationEmail: true }));
+    const auth = getAuth();
+    const user = auth.currentUser;
+
+    try {
+      if (!user) {
+        Toast.show({
+          type: "error",
+          text1: "Authentication Error",
+          text2: "No user found. Please sign in again.",
+        });
+        return;
+      }
+
+      await reload(user);
+
+      if (user.emailVerified) {
+        Toast.show({
+          type: "success",
+          text1: "Email verified successfully!",
+        });
+        navigation.navigate("(tabs)" as never);
+      } else {
+        Toast.show({
+          type: "error",
+          text1: "Email not verified yet",
+          text2: "Please check your email and verify your account",
+        });
+      }
+    } catch (error: any) {
+      const handleError = handleAuthError(error);
+      Toast.show({
+        type: "error",
+        text1: handleError.message,
+        text2: "Please try again later",
+      });
+    } finally {
+      setButtonLoading((pv) => ({ ...pv, checkVerificationEmail: false }));
+    }
+  };
+
+  const handleOpenGmailApp = async () => {
+    setButtonLoading((pv) => ({ ...pv, checkVerificationEmail: true }));
+
+    try {
+      const gmailUrl = "googlegmail://";
+      const canOpen = await Linking.canOpenURL(gmailUrl);
+
+      if (canOpen) {
+        await Linking.openURL(gmailUrl);
+      } else {
+        await Linking.openURL("mailto:");
+      }
+    } catch (error) {
+      Toast.show({
+        type: "error",
+        text1: "Could not open email app",
+        text2: "Please open it manually",
+      });
+    } finally {
+      setButtonLoading((pv) => ({ ...pv, checkVerificationEmail: false }));
+    }
+  };
+
   return (
     <SafeAreaView
       className="flex-1"
@@ -132,7 +237,7 @@ export default function VerificationEmailScreen({ route }: Props) {
                       color: theme.colors.background(1),
                     }}
                   >
-                    imahsan600@gmail.com
+                    {params.email}
                   </Text>
                   <Text
                     style={{
@@ -166,7 +271,11 @@ export default function VerificationEmailScreen({ route }: Props) {
                     }}
                   >
                     {/* Open Email App Button */}
-                    <TouchableOpacity onPress={() => {}}>
+                    <TouchableOpacity
+                      onPress={handleOpenGmailApp}
+                      disabled={buttonLoading.openEmailApp}
+                      style={{ opacity: buttonLoading.openEmailApp ? 0.6 : 1 }}
+                    >
                       <View
                         className="items-center justify-center flex-row"
                         style={{
@@ -194,7 +303,13 @@ export default function VerificationEmailScreen({ route }: Props) {
                     </TouchableOpacity>
 
                     {/* I've Verified Button */}
-                    <TouchableOpacity onPress={() => {}}>
+                    <TouchableOpacity
+                      onPress={checkEmailVerification}
+                      disabled={buttonLoading.checkVerificationEmail}
+                      style={{
+                        opacity: buttonLoading.checkVerificationEmail ? 0.6 : 1,
+                      }}
+                    >
                       <View
                         className="items-center justify-center flex-row"
                         style={{
@@ -236,7 +351,13 @@ export default function VerificationEmailScreen({ route }: Props) {
                         {" Didn't receive the email?"}
                       </Text>
 
-                      <TouchableOpacity onPress={() => {}}>
+                      <TouchableOpacity
+                        onPress={resendVerificationEmail}
+                        disabled={buttonLoading.resendEmail}
+                        style={{
+                          opacity: buttonLoading.resendEmail ? 0.6 : 1,
+                        }}
+                      >
                         <View
                           className="items-center justify-center flex-row"
                           style={{
@@ -274,13 +395,14 @@ export default function VerificationEmailScreen({ route }: Props) {
                       >
                         Want to try a different email?{" "}
                       </Text>
-                      <TouchableOpacity onPress={() => {}}>
+                      <TouchableOpacity
+                        onPress={() => navigation.navigate("SignIn")}
+                      >
                         <Text
                           style={{
                             fontFamily: boldFont,
                             fontSize: hp(smFontSize),
                             color: theme.colors.background(1),
-                            textDecorationLine: "underline",
                           }}
                         >
                           Back to Sign In

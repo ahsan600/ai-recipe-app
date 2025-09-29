@@ -1,3 +1,4 @@
+import { useAuth } from "@/hooks/useAuth";
 import { theme } from "@/theme/colorsThemes";
 import {
   boldFont,
@@ -17,7 +18,8 @@ import {
 } from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
 export default function Landing() {
-  const navigation = useNavigation();
+  const auth = useAuth();
+  const navigation = useNavigation() as any;
   const images = [
     require("../assets/images/2.jpg"),
     require("../assets/images/1.jpg"),
@@ -117,7 +119,9 @@ export default function Landing() {
 
             {/* Sign Up Button */}
             <TouchableOpacity
-              onPress={() => navigation.navigate("SignIn" as never)}
+              onPress={() =>
+                navigation.navigate(auth?.user ? "(tabs)" : "SignIn")
+              }
             >
               <View
                 className="items-center justify-center"
@@ -135,7 +139,7 @@ export default function Landing() {
                     fontSize: hp(mdFontSize),
                   }}
                 >
-                  Get Started
+                  {auth?.user ? "Get Started" : "Sign In"}
                 </Text>
               </View>
             </TouchableOpacity>

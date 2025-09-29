@@ -1,3 +1,4 @@
+import registerUser from "@/api/register-user/register-user";
 import { ThemedInput } from "@/components/ThemedComponents/ThemedInput";
 import { theme } from "@/theme/colorsThemes";
 import {
@@ -8,8 +9,10 @@ import {
   regularFont,
   smFontSize,
 } from "@/theme/fontTheme";
+import { handleAuthError } from "@/utils/FirebaseError";
 import { useNavigation } from "expo-router";
 import React, { useState } from "react";
+import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import {
   Image,
   Keyboard,
@@ -26,11 +29,73 @@ import {
   widthPercentageToDP as wp,
 } from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
+import Toast from "react-native-toast-message";
+interface SignUpFormData {
+  fullName: string;
+  email: string;
+  password: string;
+  confirmPassword: string;
+}
 
+//TODO: Implement Toastify
 export default function SignUp() {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const navigation = useNavigation();
+  const [loading, setLoading] = useState(false);
+  const navigation = useNavigation() as any;
+  const {
+    control,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm({
+    defaultValues: {
+      fullName: "",
+      email: "",
+      password: "",
+      confirmPassword: "",
+    },
+  });
+
+  const onSubmit: SubmitHandler<SignUpFormData> = async (data) => {
+    setLoading(true);
+    const { fullName, email, password } = data;
+    try {
+      const result = await registerUser({
+        email,
+        fullName,
+        password,
+      });
+
+      if (result.success) {
+        reset();
+
+        Toast.show({
+          type: "success",
+          text1: "Registration Successful",
+          text2: "Verification email sent",
+        });
+        navigation.navigate("VerificationEmailScreen" as never, {
+          email: email,
+        });
+      } else {
+        Toast.show({
+          type: "error",
+          text1: result.error?.message,
+        });
+      }
+    } catch (error) {
+      const handleError = handleAuthError(error);
+      Toast.show({
+        type: "success",
+        text1: handleError.message,
+        text2: "Please try again",
+      });
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <SafeAreaView
       className="flex-1"
@@ -44,22 +109,6 @@ export default function SignUp() {
         keyboardVerticalOffset={Platform.OS === "ios" ? 0 : 20}
       >
         <View className="flex-1 relative">
-          {/* <TouchableOpacity
-            className="absolute z-50 rounded-full"
-            style={{
-              backgroundColor: theme.colors.background(0.7),
-              padding: hp(1),
-              top: hp(2),
-              left: wp(3),
-            }}
-          >
-            <Ionicons
-              name="arrow-back-sharp"
-              color="white"
-              size={hp(4)}
-              onPress={() => navigation.goBack()}
-            />
-          </TouchableOpacity> */}
           <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
             <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
               <View className="flex-1">
@@ -128,61 +177,171 @@ export default function SignUp() {
                       }}
                     >
                       <View style={{ gap: hp(2) }}>
-                        <ThemedInput
-                          leftIcon="person"
-                          placeholder="Full Name"
-                          inputStyle={{
-                            color: "black",
-                            fontFamily: regularFont,
-                            fontSize: hp(placeHolderFontSize),
-                          }}
-                        />
-                        <ThemedInput
-                          leftIcon="mail"
-                          placeholder="Email"
-                          inputStyle={{
-                            color: "black",
-                            fontFamily: regularFont,
-                            fontSize: hp(placeHolderFontSize),
-                          }}
-                        />
-                        <ThemedInput
-                          leftIcon="lock-closed"
-                          placeholder="Password"
-                          secureTextEntry={!showPassword}
-                          rightIcon={showPassword ? "eye" : "eye-off"}
-                          onRightIconPress={() =>
-                            setShowPassword(!showPassword)
-                          }
-                          inputStyle={{
-                            color: "black",
-                            fontFamily: regularFont,
-                            fontSize: hp(placeHolderFontSize),
-                          }}
-                        />
-                        <ThemedInput
-                          leftIcon="lock-closed"
-                          placeholder="Confirm Password"
-                          secureTextEntry={!showConfirmPassword}
-                          rightIcon={showConfirmPassword ? "eye" : "eye-off"}
-                          onRightIconPress={() =>
-                            setShowConfirmPassword(!showConfirmPassword)
-                          }
-                          inputStyle={{
-                            color: "black",
-                            fontFamily: regularFont,
-                            fontSize: hp(placeHolderFontSize),
-                          }}
-                        />
+                        {/* Full Name */}
+                        <View>
+                          <Controller
+                            control={control}
+                            rules={{
+                              required: true,
+                            }}
+                            render={({
+                              field: { onChange, onBlur, value },
+                            }) => (
+                              <ThemedInput
+                                leftIcon="person"
+                                placeholder="Full Name"
+                                onBlur={onBlur}
+                                onChangeText={onChange}
+                                value={value}
+                                inputStyle={{
+                                  color: "black",
+                                  fontFamily: regularFont,
+                                  fontSize: hp(placeHolderFontSize),
+                                }}
+                              />
+                            )}
+                            name="fullName"
+                          />
+                          {errors.fullName && (
+                            <Text style={{ color: "red" }}>
+                              Full Name is required.
+                            </Text>
+                          )}
+                        </View>
+
+                        {/* Email */}
+                        <View>
+                          <Controller
+                            control={control}
+                            rules={{
+                              required: "Email Address is required.",
+                              validate: (value) =>
+                                /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) ||
+                                "Invalid email format",
+                            }}
+                            render={({
+                              field: { onChange, onBlur, value },
+                            }) => (
+                              <ThemedInput
+                                leftIcon="mail"
+                                placeholder="Email Address"
+                                onBlur={onBlur}
+                                onChangeText={onChange}
+                                value={value}
+                                inputStyle={{
+                                  color: "black",
+                                  fontFamily: regularFont,
+                                  fontSize: hp(placeHolderFontSize),
+                                }}
+                              />
+                            )}
+                            name="email"
+                          />
+                          {errors.email && (
+                            <Text style={{ color: "red" }}>
+                              {errors.email.message}
+                            </Text>
+                          )}
+                        </View>
+
+                        {/* Password */}
+                        <View>
+                          <Controller
+                            control={control}
+                            rules={{
+                              required: true,
+                              minLength: {
+                                value: 8,
+                                message:
+                                  "Password must be at least 8 characters.",
+                              },
+                            }}
+                            render={({
+                              field: { onChange, onBlur, value },
+                            }) => (
+                              <ThemedInput
+                                leftIcon="lock-closed"
+                                placeholder="Password"
+                                secureTextEntry={!showPassword}
+                                rightIcon={showPassword ? "eye" : "eye-off"}
+                                onRightIconPress={() =>
+                                  setShowPassword(!showPassword)
+                                }
+                                onBlur={onBlur}
+                                onChangeText={onChange}
+                                value={value}
+                                inputStyle={{
+                                  color: "black",
+                                  fontFamily: regularFont,
+                                  fontSize: hp(placeHolderFontSize),
+                                }}
+                              />
+                            )}
+                            name="password"
+                          />
+                          {errors.password && (
+                            <Text style={{ color: "red" }}>
+                              {errors.password.message ||
+                                "Password is required."}
+                            </Text>
+                          )}
+                        </View>
+
+                        {/* Confirm Password */}
+                        <View>
+                          <Controller
+                            control={control}
+                            rules={{
+                              required: "Please confirm your password.",
+                              validate: (value, formData) =>
+                                value === formData.password ||
+                                "Passwords do not match.",
+                            }}
+                            render={({
+                              field: { onChange, onBlur, value },
+                            }) => (
+                              <ThemedInput
+                                leftIcon="lock-closed"
+                                placeholder="Confirm Password"
+                                secureTextEntry={!showConfirmPassword}
+                                rightIcon={
+                                  showConfirmPassword ? "eye" : "eye-off"
+                                }
+                                onRightIconPress={() =>
+                                  setShowConfirmPassword(!showConfirmPassword)
+                                }
+                                onBlur={onBlur}
+                                onChangeText={onChange}
+                                value={value}
+                                inputStyle={{
+                                  color: "black",
+                                  fontFamily: regularFont,
+                                  fontSize: hp(placeHolderFontSize),
+                                }}
+                              />
+                            )}
+                            name="confirmPassword"
+                          />
+                          {errors.confirmPassword && (
+                            <Text style={{ color: "red" }}>
+                              {errors.confirmPassword.message}
+                            </Text>
+                          )}
+                        </View>
                       </View>
+
+                      {/* Buttons */}
                       <View
                         className="flex-1 align-end justify-end"
                         style={{
                           gap: hp(2),
                         }}
                       >
-                        {/* Sign Up Button */}
-                        <TouchableOpacity onPress={() => {}}>
+                        <TouchableOpacity
+                          disabled={loading}
+                          onPress={handleSubmit(onSubmit)}
+                          style={{ opacity: loading ? 0.6 : 1 }}
+                        >
                           <View
                             className="items-center justify-center"
                             style={{
@@ -199,7 +358,7 @@ export default function SignUp() {
                                 fontSize: hp(mdFontSize),
                               }}
                             >
-                              Sign Up
+                              {loading ? "Signing Up..." : "Sign Up"}
                             </Text>
                           </View>
                         </TouchableOpacity>
@@ -227,7 +386,7 @@ export default function SignUp() {
                                 color: theme.colors.background(1),
                               }}
                             >
-                              Login
+                              Sign In
                             </Text>
                           </TouchableOpacity>
                         </View>
