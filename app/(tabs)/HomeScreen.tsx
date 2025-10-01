@@ -1,10 +1,18 @@
+import GenerateRecipeInput from "@/components/GenerateRecipeInput";
+import { useAuth } from "@/hooks/useAuth";
+import { boldFont, mdFontSize } from "@/theme/fontTheme";
 import auth from "@react-native-firebase/auth";
 import React from "react";
-import { Text, TouchableOpacity } from "react-native";
+import { ScrollView, Text, View } from "react-native";
+import {
+  heightPercentageToDP,
+  widthPercentageToDP as wp,
+} from "react-native-responsive-screen";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Toast from "react-native-toast-message";
 
 export default function HomeScreen() {
+  const userAuth = useAuth();
   const signOutUser = async () => {
     await auth().signOut();
     Toast.show({
@@ -12,11 +20,44 @@ export default function HomeScreen() {
       text1: "User Sign out Successfully",
     });
   };
+
   return (
-    <SafeAreaView>
-      <TouchableOpacity onPress={signOutUser}>
-        <Text>SignOut</Text>
-      </TouchableOpacity>
+    <SafeAreaView className="flex-1">
+      <ScrollView showsHorizontalScrollIndicator={false}>
+        <View style={{ paddingHorizontal: wp(6) }}>
+          <View className="flex-row items-center justify-between">
+            <View>
+              <Text
+                style={{
+                  fontFamily: boldFont,
+                  fontSize: heightPercentageToDP(mdFontSize),
+                }}
+              >
+                Hello, {userAuth?.user?.displayName}
+              </Text>
+            </View>
+            {/* <TouchableOpacity
+            style={{
+              backgroundColor: theme.colors.background(1),
+              padding: heightPercentageToDP(1),
+              borderRadius: wp(2),
+            }}
+            onPress={signOutUser}
+          >
+            <Text
+              style={{
+                fontFamily: regularFont,
+                fontSize: heightPercentageToDP(1.6),
+              }}
+              className="text-white"
+            >
+              Sign Out
+            </Text>
+          </TouchableOpacity> */}
+          </View>
+          <GenerateRecipeInput />
+        </View>
+      </ScrollView>
     </SafeAreaView>
   );
 }

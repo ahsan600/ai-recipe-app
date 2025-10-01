@@ -267,22 +267,23 @@ export default function SignIn() {
                             </Text>
                           )}
                         </View>
-                        <TouchableOpacity
-                          onPress={() =>
-                            navigation.navigate("ForgotPassword" as never)
-                          }
-                        >
-                          <Text
-                            className="text-right"
-                            style={{
-                              fontFamily: regularFont,
-                              fontSize: hp(smFontSize),
-                              color: theme.colors.background(1),
-                            }}
+                        <View className="items-end">
+                          <TouchableOpacity
+                            onPress={() =>
+                              navigation.navigate("ForgotPassword" as never)
+                            }
                           >
-                            Forgot Password?
-                          </Text>
-                        </TouchableOpacity>
+                            <Text
+                              style={{
+                                fontFamily: regularFont,
+                                fontSize: hp(smFontSize),
+                                color: theme.colors.background(1),
+                              }}
+                            >
+                              Forgot Password?
+                            </Text>
+                          </TouchableOpacity>
+                        </View>
                       </View>
                       <View
                         className="flex-1 align-end justify-end"

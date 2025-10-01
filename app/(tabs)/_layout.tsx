@@ -20,13 +20,9 @@ export default function TabsLayout() {
           tabBarStyle: {
             padding: hp(10),
           },
-          tabBarLabelStyle: {
-            fontSize: wp(regularFont),
-            fontWeight: "600",
-            marginTop: hp(0.3),
-          },
+
           tabBarItemStyle: {
-            paddingVertical: hp(0.5),
+            paddingVertical: hp(1),
           },
         }}
       >
