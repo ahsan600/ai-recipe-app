@@ -24,8 +24,10 @@ export default function HomeScreen() {
   return (
     <SafeAreaView className="flex-1">
       <ScrollView showsHorizontalScrollIndicator={false}>
-        <View style={{ paddingHorizontal: wp(6) }}>
-          <View className="flex-row items-center justify-between">
+        <View
+          style={{ paddingHorizontal: wp(4), gap: heightPercentageToDP(2) }}
+        >
+          <View className="flex-row items-center gap-2 justify-between">
             <View>
               <Text
                 style={{
