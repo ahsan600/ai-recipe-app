@@ -1,0 +1,6617 @@
+[
+  {
+    "id": "recipe-1",
+    "title": "Lunch Delight 1",
+    "description": "A delicious and easy to make lunch dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Lunch",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 11,
+    "cookTime": 16,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 301,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-2",
+    "title": "Dinner Delight 2",
+    "description": "A delicious and easy to make dinner dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Dinner",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 12,
+    "cookTime": 17,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 302,
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-3",
+    "title": "Desserts Delight 3",
+    "description": "A delicious and easy to make desserts dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Desserts",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 13,
+    "cookTime": 18,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 303,
+    "ingredients": [
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-4",
+    "title": "Snacks Delight 4",
+    "description": "A delicious and easy to make snacks dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Snacks",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 14,
+    "cookTime": 19,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 304,
+    "ingredients": [
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-5",
+    "title": "Pasta Delight 5",
+    "description": "A delicious and easy to make pasta dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Pasta",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 305,
+    "ingredients": [
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-6",
+    "title": "Chicken Delight 6",
+    "description": "A delicious and easy to make chicken dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Chicken",
+    "tags": [
+      "Italian",
+      "Asian"
+    ],
+    "prepTime": 16,
+    "cookTime": 21,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 306,
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-7",
+    "title": "Vegetarian Delight 7",
+    "description": "A delicious and easy to make vegetarian dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegetarian",
+    "tags": [
+      "Asian",
+      "Comfort Food"
+    ],
+    "prepTime": 17,
+    "cookTime": 22,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 307,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-8",
+    "title": "Vegan Delight 8",
+    "description": "A delicious and easy to make vegan dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegan",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "prepTime": 18,
+    "cookTime": 23,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 308,
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-9",
+    "title": "Quick meals Delight 9",
+    "description": "A delicious and easy to make quick meals dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Quick meals",
+    "tags": [
+      "Spicy",
+      "Quick"
+    ],
+    "prepTime": 19,
+    "cookTime": 24,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 309,
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-10",
+    "title": "Healthy Delight 10",
+    "description": "A delicious and easy to make healthy dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Healthy",
+    "tags": [
+      "Quick",
+      "Easy"
+    ],
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 310,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-11",
+    "title": "Breakfast Delight 11",
+    "description": "A delicious and easy to make breakfast dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Breakfast",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 21,
+    "cookTime": 26,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 311,
+    "ingredients": [
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-12",
+    "title": "Lunch Delight 12",
+    "description": "A delicious and easy to make lunch dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Lunch",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 22,
+    "cookTime": 27,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 312,
+    "ingredients": [
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-13",
+    "title": "Dinner Delight 13",
+    "description": "A delicious and easy to make dinner dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Dinner",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 23,
+    "cookTime": 28,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 313,
+    "ingredients": [
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-14",
+    "title": "Desserts Delight 14",
+    "description": "A delicious and easy to make desserts dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Desserts",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 24,
+    "cookTime": 29,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 314,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-15",
+    "title": "Snacks Delight 15",
+    "description": "A delicious and easy to make snacks dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Snacks",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 315,
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-16",
+    "title": "Pasta Delight 16",
+    "description": "A delicious and easy to make pasta dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Pasta",
+    "tags": [
+      "Italian",
+      "Asian"
+    ],
+    "prepTime": 26,
+    "cookTime": 31,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 316,
+    "ingredients": [
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-17",
+    "title": "Chicken Delight 17",
+    "description": "A delicious and easy to make chicken dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Chicken",
+    "tags": [
+      "Asian",
+      "Comfort Food"
+    ],
+    "prepTime": 27,
+    "cookTime": 32,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 317,
+    "ingredients": [
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-18",
+    "title": "Vegetarian Delight 18",
+    "description": "A delicious and easy to make vegetarian dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegetarian",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "prepTime": 28,
+    "cookTime": 33,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 318,
+    "ingredients": [
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-19",
+    "title": "Vegan Delight 19",
+    "description": "A delicious and easy to make vegan dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegan",
+    "tags": [
+      "Spicy",
+      "Quick"
+    ],
+    "prepTime": 29,
+    "cookTime": 34,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 319,
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-20",
+    "title": "Quick meals Delight 20",
+    "description": "A delicious and easy to make quick meals dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Quick meals",
+    "tags": [
+      "Quick",
+      "Easy"
+    ],
+    "prepTime": 10,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 320,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-21",
+    "title": "Healthy Delight 21",
+    "description": "A delicious and easy to make healthy dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Healthy",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 11,
+    "cookTime": 36,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 321,
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-22",
+    "title": "Breakfast Delight 22",
+    "description": "A delicious and easy to make breakfast dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Breakfast",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 12,
+    "cookTime": 37,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 322,
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-23",
+    "title": "Lunch Delight 23",
+    "description": "A delicious and easy to make lunch dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Lunch",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 13,
+    "cookTime": 38,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 323,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-24",
+    "title": "Dinner Delight 24",
+    "description": "A delicious and easy to make dinner dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Dinner",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 14,
+    "cookTime": 39,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 324,
+    "ingredients": [
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-25",
+    "title": "Desserts Delight 25",
+    "description": "A delicious and easy to make desserts dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Desserts",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 15,
+    "cookTime": 40,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 325,
+    "ingredients": [
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-26",
+    "title": "Snacks Delight 26",
+    "description": "A delicious and easy to make snacks dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Snacks",
+    "tags": [
+      "Italian",
+      "Asian"
+    ],
+    "prepTime": 16,
+    "cookTime": 41,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 326,
+    "ingredients": [
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-27",
+    "title": "Pasta Delight 27",
+    "description": "A delicious and easy to make pasta dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Pasta",
+    "tags": [
+      "Asian",
+      "Comfort Food"
+    ],
+    "prepTime": 17,
+    "cookTime": 42,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 327,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-28",
+    "title": "Chicken Delight 28",
+    "description": "A delicious and easy to make chicken dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Chicken",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "prepTime": 18,
+    "cookTime": 43,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 328,
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-29",
+    "title": "Vegetarian Delight 29",
+    "description": "A delicious and easy to make vegetarian dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegetarian",
+    "tags": [
+      "Spicy",
+      "Quick"
+    ],
+    "prepTime": 19,
+    "cookTime": 44,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 329,
+    "ingredients": [
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-30",
+    "title": "Vegan Delight 30",
+    "description": "A delicious and easy to make vegan dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegan",
+    "tags": [
+      "Quick",
+      "Easy"
+    ],
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 330,
+    "ingredients": [
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-31",
+    "title": "Quick meals Delight 31",
+    "description": "A delicious and easy to make quick meals dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Quick meals",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 21,
+    "cookTime": 16,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 331,
+    "ingredients": [
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-32",
+    "title": "Healthy Delight 32",
+    "description": "A delicious and easy to make healthy dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Healthy",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 22,
+    "cookTime": 17,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 332,
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-33",
+    "title": "Breakfast Delight 33",
+    "description": "A delicious and easy to make breakfast dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Breakfast",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 23,
+    "cookTime": 18,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 333,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-34",
+    "title": "Lunch Delight 34",
+    "description": "A delicious and easy to make lunch dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Lunch",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 24,
+    "cookTime": 19,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 334,
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-35",
+    "title": "Dinner Delight 35",
+    "description": "A delicious and easy to make dinner dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Dinner",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 25,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 335,
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-36",
+    "title": "Desserts Delight 36",
+    "description": "A delicious and easy to make desserts dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Desserts",
+    "tags": [
+      "Italian",
+      "Asian"
+    ],
+    "prepTime": 26,
+    "cookTime": 21,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 336,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-37",
+    "title": "Snacks Delight 37",
+    "description": "A delicious and easy to make snacks dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Snacks",
+    "tags": [
+      "Asian",
+      "Comfort Food"
+    ],
+    "prepTime": 27,
+    "cookTime": 22,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 337,
+    "ingredients": [
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-38",
+    "title": "Pasta Delight 38",
+    "description": "A delicious and easy to make pasta dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Pasta",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "prepTime": 28,
+    "cookTime": 23,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 338,
+    "ingredients": [
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-39",
+    "title": "Chicken Delight 39",
+    "description": "A delicious and easy to make chicken dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Chicken",
+    "tags": [
+      "Spicy",
+      "Quick"
+    ],
+    "prepTime": 29,
+    "cookTime": 24,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 339,
+    "ingredients": [
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-40",
+    "title": "Vegetarian Delight 40",
+    "description": "A delicious and easy to make vegetarian dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegetarian",
+    "tags": [
+      "Quick",
+      "Easy"
+    ],
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 340,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-41",
+    "title": "Vegan Delight 41",
+    "description": "A delicious and easy to make vegan dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegan",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 11,
+    "cookTime": 26,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 341,
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-42",
+    "title": "Quick meals Delight 42",
+    "description": "A delicious and easy to make quick meals dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Quick meals",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 12,
+    "cookTime": 27,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 342,
+    "ingredients": [
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-43",
+    "title": "Healthy Delight 43",
+    "description": "A delicious and easy to make healthy dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Healthy",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 13,
+    "cookTime": 28,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 343,
+    "ingredients": [
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-44",
+    "title": "Breakfast Delight 44",
+    "description": "A delicious and easy to make breakfast dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Breakfast",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 14,
+    "cookTime": 29,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 344,
+    "ingredients": [
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-45",
+    "title": "Lunch Delight 45",
+    "description": "A delicious and easy to make lunch dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Lunch",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 345,
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-46",
+    "title": "Dinner Delight 46",
+    "description": "A delicious and easy to make dinner dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Dinner",
+    "tags": [
+      "Italian",
+      "Asian"
+    ],
+    "prepTime": 16,
+    "cookTime": 31,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 346,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-47",
+    "title": "Desserts Delight 47",
+    "description": "A delicious and easy to make desserts dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Desserts",
+    "tags": [
+      "Asian",
+      "Comfort Food"
+    ],
+    "prepTime": 17,
+    "cookTime": 32,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 347,
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-48",
+    "title": "Snacks Delight 48",
+    "description": "A delicious and easy to make snacks dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Snacks",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "prepTime": 18,
+    "cookTime": 33,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 348,
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-49",
+    "title": "Pasta Delight 49",
+    "description": "A delicious and easy to make pasta dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Pasta",
+    "tags": [
+      "Spicy",
+      "Quick"
+    ],
+    "prepTime": 19,
+    "cookTime": 34,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 349,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-50",
+    "title": "Chicken Delight 50",
+    "description": "A delicious and easy to make chicken dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Chicken",
+    "tags": [
+      "Quick",
+      "Easy"
+    ],
+    "prepTime": 20,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 350,
+    "ingredients": [
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-51",
+    "title": "Vegetarian Delight 51",
+    "description": "A delicious and easy to make vegetarian dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegetarian",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 21,
+    "cookTime": 36,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 351,
+    "ingredients": [
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-52",
+    "title": "Vegan Delight 52",
+    "description": "A delicious and easy to make vegan dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegan",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 22,
+    "cookTime": 37,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 352,
+    "ingredients": [
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-53",
+    "title": "Quick meals Delight 53",
+    "description": "A delicious and easy to make quick meals dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Quick meals",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 23,
+    "cookTime": 38,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 353,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-54",
+    "title": "Healthy Delight 54",
+    "description": "A delicious and easy to make healthy dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Healthy",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 24,
+    "cookTime": 39,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 354,
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-55",
+    "title": "Breakfast Delight 55",
+    "description": "A delicious and easy to make breakfast dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Breakfast",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 25,
+    "cookTime": 40,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 355,
+    "ingredients": [
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-56",
+    "title": "Lunch Delight 56",
+    "description": "A delicious and easy to make lunch dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Lunch",
+    "tags": [
+      "Italian",
+      "Asian"
+    ],
+    "prepTime": 26,
+    "cookTime": 41,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 356,
+    "ingredients": [
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-57",
+    "title": "Dinner Delight 57",
+    "description": "A delicious and easy to make dinner dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Dinner",
+    "tags": [
+      "Asian",
+      "Comfort Food"
+    ],
+    "prepTime": 27,
+    "cookTime": 42,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 357,
+    "ingredients": [
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-58",
+    "title": "Desserts Delight 58",
+    "description": "A delicious and easy to make desserts dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Desserts",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "prepTime": 28,
+    "cookTime": 43,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 358,
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-59",
+    "title": "Snacks Delight 59",
+    "description": "A delicious and easy to make snacks dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Snacks",
+    "tags": [
+      "Spicy",
+      "Quick"
+    ],
+    "prepTime": 29,
+    "cookTime": 44,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 359,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-60",
+    "title": "Pasta Delight 60",
+    "description": "A delicious and easy to make pasta dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Pasta",
+    "tags": [
+      "Quick",
+      "Easy"
+    ],
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 360,
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-61",
+    "title": "Chicken Delight 61",
+    "description": "A delicious and easy to make chicken dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Chicken",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 11,
+    "cookTime": 16,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 361,
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-62",
+    "title": "Vegetarian Delight 62",
+    "description": "A delicious and easy to make vegetarian dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegetarian",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 12,
+    "cookTime": 17,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 362,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-63",
+    "title": "Vegan Delight 63",
+    "description": "A delicious and easy to make vegan dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegan",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 13,
+    "cookTime": 18,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 363,
+    "ingredients": [
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-64",
+    "title": "Quick meals Delight 64",
+    "description": "A delicious and easy to make quick meals dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Quick meals",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 14,
+    "cookTime": 19,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 364,
+    "ingredients": [
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-65",
+    "title": "Healthy Delight 65",
+    "description": "A delicious and easy to make healthy dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Healthy",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 365,
+    "ingredients": [
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-66",
+    "title": "Breakfast Delight 66",
+    "description": "A delicious and easy to make breakfast dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Breakfast",
+    "tags": [
+      "Italian",
+      "Asian"
+    ],
+    "prepTime": 16,
+    "cookTime": 21,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 366,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-67",
+    "title": "Lunch Delight 67",
+    "description": "A delicious and easy to make lunch dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Lunch",
+    "tags": [
+      "Asian",
+      "Comfort Food"
+    ],
+    "prepTime": 17,
+    "cookTime": 22,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 367,
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-68",
+    "title": "Dinner Delight 68",
+    "description": "A delicious and easy to make dinner dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Dinner",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "prepTime": 18,
+    "cookTime": 23,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 368,
+    "ingredients": [
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-69",
+    "title": "Desserts Delight 69",
+    "description": "A delicious and easy to make desserts dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Desserts",
+    "tags": [
+      "Spicy",
+      "Quick"
+    ],
+    "prepTime": 19,
+    "cookTime": 24,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 369,
+    "ingredients": [
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-70",
+    "title": "Snacks Delight 70",
+    "description": "A delicious and easy to make snacks dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Snacks",
+    "tags": [
+      "Quick",
+      "Easy"
+    ],
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 370,
+    "ingredients": [
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-71",
+    "title": "Pasta Delight 71",
+    "description": "A delicious and easy to make pasta dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Pasta",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 21,
+    "cookTime": 26,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 371,
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-72",
+    "title": "Chicken Delight 72",
+    "description": "A delicious and easy to make chicken dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Chicken",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 22,
+    "cookTime": 27,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 372,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-73",
+    "title": "Vegetarian Delight 73",
+    "description": "A delicious and easy to make vegetarian dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegetarian",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 23,
+    "cookTime": 28,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 373,
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-74",
+    "title": "Vegan Delight 74",
+    "description": "A delicious and easy to make vegan dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegan",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 24,
+    "cookTime": 29,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 374,
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-75",
+    "title": "Quick meals Delight 75",
+    "description": "A delicious and easy to make quick meals dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Quick meals",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 375,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-76",
+    "title": "Healthy Delight 76",
+    "description": "A delicious and easy to make healthy dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Healthy",
+    "tags": [
+      "Italian",
+      "Asian"
+    ],
+    "prepTime": 26,
+    "cookTime": 31,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 376,
+    "ingredients": [
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-77",
+    "title": "Breakfast Delight 77",
+    "description": "A delicious and easy to make breakfast dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Breakfast",
+    "tags": [
+      "Asian",
+      "Comfort Food"
+    ],
+    "prepTime": 27,
+    "cookTime": 32,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 377,
+    "ingredients": [
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-78",
+    "title": "Lunch Delight 78",
+    "description": "A delicious and easy to make lunch dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Lunch",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "prepTime": 28,
+    "cookTime": 33,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 378,
+    "ingredients": [
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-79",
+    "title": "Dinner Delight 79",
+    "description": "A delicious and easy to make dinner dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Dinner",
+    "tags": [
+      "Spicy",
+      "Quick"
+    ],
+    "prepTime": 29,
+    "cookTime": 34,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 379,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-80",
+    "title": "Desserts Delight 80",
+    "description": "A delicious and easy to make desserts dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Desserts",
+    "tags": [
+      "Quick",
+      "Easy"
+    ],
+    "prepTime": 10,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 380,
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-81",
+    "title": "Snacks Delight 81",
+    "description": "A delicious and easy to make snacks dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Snacks",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 11,
+    "cookTime": 36,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 381,
+    "ingredients": [
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-82",
+    "title": "Pasta Delight 82",
+    "description": "A delicious and easy to make pasta dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Pasta",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 12,
+    "cookTime": 37,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 382,
+    "ingredients": [
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-83",
+    "title": "Chicken Delight 83",
+    "description": "A delicious and easy to make chicken dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Chicken",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 13,
+    "cookTime": 38,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 383,
+    "ingredients": [
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-84",
+    "title": "Vegetarian Delight 84",
+    "description": "A delicious and easy to make vegetarian dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegetarian",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 14,
+    "cookTime": 39,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 384,
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-85",
+    "title": "Vegan Delight 85",
+    "description": "A delicious and easy to make vegan dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegan",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 15,
+    "cookTime": 40,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 385,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-86",
+    "title": "Quick meals Delight 86",
+    "description": "A delicious and easy to make quick meals dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Quick meals",
+    "tags": [
+      "Italian",
+      "Asian"
+    ],
+    "prepTime": 16,
+    "cookTime": 41,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 386,
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-87",
+    "title": "Healthy Delight 87",
+    "description": "A delicious and easy to make healthy dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Healthy",
+    "tags": [
+      "Asian",
+      "Comfort Food"
+    ],
+    "prepTime": 17,
+    "cookTime": 42,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 387,
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-88",
+    "title": "Breakfast Delight 88",
+    "description": "A delicious and easy to make breakfast dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Breakfast",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "prepTime": 18,
+    "cookTime": 43,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 388,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-89",
+    "title": "Lunch Delight 89",
+    "description": "A delicious and easy to make lunch dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Lunch",
+    "tags": [
+      "Spicy",
+      "Quick"
+    ],
+    "prepTime": 19,
+    "cookTime": 44,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 389,
+    "ingredients": [
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-90",
+    "title": "Dinner Delight 90",
+    "description": "A delicious and easy to make dinner dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Dinner",
+    "tags": [
+      "Quick",
+      "Easy"
+    ],
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 390,
+    "ingredients": [
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-91",
+    "title": "Desserts Delight 91",
+    "description": "A delicious and easy to make desserts dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Desserts",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 21,
+    "cookTime": 16,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 391,
+    "ingredients": [
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-92",
+    "title": "Snacks Delight 92",
+    "description": "A delicious and easy to make snacks dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Snacks",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 22,
+    "cookTime": 17,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 392,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-93",
+    "title": "Pasta Delight 93",
+    "description": "A delicious and easy to make pasta dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Pasta",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 23,
+    "cookTime": 18,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 393,
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-94",
+    "title": "Chicken Delight 94",
+    "description": "A delicious and easy to make chicken dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Chicken",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 24,
+    "cookTime": 19,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 394,
+    "ingredients": [
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-95",
+    "title": "Vegetarian Delight 95",
+    "description": "A delicious and easy to make vegetarian dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegetarian",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 25,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 395,
+    "ingredients": [
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-96",
+    "title": "Vegan Delight 96",
+    "description": "A delicious and easy to make vegan dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Vegan",
+    "tags": [
+      "Italian",
+      "Asian"
+    ],
+    "prepTime": 26,
+    "cookTime": 21,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 396,
+    "ingredients": [
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-97",
+    "title": "Quick meals Delight 97",
+    "description": "A delicious and easy to make quick meals dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Quick meals",
+    "tags": [
+      "Asian",
+      "Comfort Food"
+    ],
+    "prepTime": 27,
+    "cookTime": 22,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 397,
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-98",
+    "title": "Healthy Delight 98",
+    "description": "A delicious and easy to make healthy dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Healthy",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "prepTime": 28,
+    "cookTime": 23,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 398,
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      },
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-99",
+    "title": "Breakfast Delight 99",
+    "description": "A delicious and easy to make breakfast dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Breakfast",
+    "tags": [
+      "Spicy",
+      "Quick"
+    ],
+    "prepTime": 29,
+    "cookTime": 24,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 399,
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-100",
+    "title": "Lunch Delight 100",
+    "description": "A delicious and easy to make lunch dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Lunch",
+    "tags": [
+      "Quick",
+      "Easy"
+    ],
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 400,
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-101",
+    "title": "Dinner Delight 101",
+    "description": "A delicious and easy to make dinner dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Dinner",
+    "tags": [
+      "Easy",
+      "Healthy"
+    ],
+    "prepTime": 11,
+    "cookTime": 26,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 401,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-102",
+    "title": "Desserts Delight 102",
+    "description": "A delicious and easy to make desserts dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Desserts",
+    "tags": [
+      "Healthy",
+      "Vegan"
+    ],
+    "prepTime": 12,
+    "cookTime": 27,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 402,
+    "ingredients": [
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-103",
+    "title": "Snacks Delight 103",
+    "description": "A delicious and easy to make snacks dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Snacks",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "prepTime": 13,
+    "cookTime": 28,
+    "servings": 3,
+    "difficulty": "Medium",
+    "calories": 403,
+    "ingredients": [
+      {
+        "name": "Black Pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-104",
+    "title": "Pasta Delight 104",
+    "description": "A delicious and easy to make pasta dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Pasta",
+    "tags": [
+      "High Protein",
+      "Keto"
+    ],
+    "prepTime": 14,
+    "cookTime": 29,
+    "servings": 4,
+    "difficulty": "Hard",
+    "calories": 404,
+    "ingredients": [
+      {
+        "name": "Chicken Breast",
+        "amount": "200g"
+      },
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 medium"
+      },
+      {
+        "name": "Tomato",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2 large"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  },
+  {
+    "id": "recipe-105",
+    "title": "Chicken Delight 105",
+    "description": "A delicious and easy to make chicken dish perfectly balanced in flavors.",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "category": "Chicken",
+    "tags": [
+      "Keto",
+      "Italian"
+    ],
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 2,
+    "difficulty": "Easy",
+    "calories": 405,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Pasta",
+        "amount": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparation",
+        "description": "Gather all ingredients and prepare your workstation."
+      },
+      {
+        "step": 2,
+        "title": "Cooking",
+        "description": "Combine ingredients and cook according to the heat levels required."
+      },
+      {
+        "step": 3,
+        "title": "Serving",
+        "description": "Garnish appropriately and serve warm."
+      }
+    ],
+    "tips": [
+      "Adjust seasoning according to taste.",
+      "Can be stored in the fridge for up to 2 days."
+    ]
+  }
+]
